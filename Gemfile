@@ -7,6 +7,11 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.3'
 
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+gem 'jquery-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
