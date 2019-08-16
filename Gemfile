@@ -12,6 +12,7 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
+gem 'stock_quote'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -71,3 +72,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "hirb", "~> 0.7.3"
