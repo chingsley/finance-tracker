@@ -13,6 +13,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'stock_quote'
+gem 'iex-ruby-client'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
