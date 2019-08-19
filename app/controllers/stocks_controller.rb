@@ -6,6 +6,7 @@ class StocksController < ApplicationController
     else
       # @stock = Stock.new_from_lookup(params[:stock])
       @stock = { ticker: 'stock ticker', name: 'stock name', price: 'stock price' }
+      # @stock = { ticker: 'GOOG', name: 'Alphabet Inc', price: 0.104061e4 }
       flash.now[:danger] = "Invalid stock symbol. Please enter a correct stock symbol" unless @stock
     end
     respond_to do |format|
