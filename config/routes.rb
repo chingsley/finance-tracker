@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { :registration => "user/registrations" }
   resources :user_stocks, only: [:create, :destroy]
+  resources :users, only: [:show]
+  resources :friendships
 
   root 'welcome#index'
   get 'my_portfolio', to: 'users#my_portfolio'
