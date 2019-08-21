@@ -1,7 +1,6 @@
 class User::RegistrationsController < Devise::
   before_action :configure_permitted_parameters
   
-  debugger
   protected
 
   def configure_permitted_parameters
